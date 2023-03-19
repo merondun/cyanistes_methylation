@@ -1,0 +1,5 @@
+library(tidyverse)
+c <- read.table('CGI-Distance.txt',header=F)
+names(c) <- c('ID','chr','distance')
+cs <- c %>% group_by(ID,distance) %>% summarize(count=n())
+write.table(cs,file='CGI-DistanceHists.txt',quote=F,sep='\t',row.names=F)
