@@ -1,26 +1,26 @@
-# Blue Tit 5mC Variation among Families
+# Blue Tit 5mC Pilot
 
-This project aims to investigate the variation of 5mC methylation among a pedigree of Blue Tits. The directory structure of this project is as follows:
+This project aims to investigate 5mC methylation varition among a pedigree of Blue Tits and assess reproducibility across batches and protocols. The directory structure of this project is as follows:
 
 ## Directory Structure
 
-- `bisulfite_conversion`: This directory contains the data and scripts used for the conversion of genomic DNA via bisulfite treatment, which is an essential preprocessing step for studying DNA methylation.
+- `bisulfite_conversion`: Barebones scripts for examining bisulfite conversion success.
 
-- `conda_environments`: Contains the Conda environments necessary to replicate the computational analyses performed in this study. Conda is a platform that simplifies package management and deployment.
+- `conda_environments`: Contains the Conda environments.
 
-- `cpg_extraction`: Contains scripts for extracting CpG sites from the processed genomic data. These sites are the regions where DNA methylation primarily occurs.
+- `cpg_extraction`: Contains scripts for extracting 5mC CpG methylation for each sample and overlapping them into a large matrix. 
 
 - `general`: Contains general utility scripts and files that don't belong to any specific part of the analysis but are used throughout the project.
 
-- `metadata_n384_pilots.txt`: This text file contains metadata for the 384 pilot samples used in the project.
+- `metadata_n384_pilots.txt`: This text file contains metadata for the 467 pilot samples used in the project.
 
-- `pedigree`: This directory contains information about the pedigree of the Blue Tits that are the subject of this study.
+- `pedigree`: This directory contains information about the pedigree of the Blue Tits.
 
-- `rrbs_processing`: Contains scripts and data related to Reduced Representation Bisulfite Sequencing (RRBS), a method used for studying DNA methylation.
+- `rrbs_processing`: Contains scripts and data related to Reduced Representation Bisulfite Sequencing (RRBS) and additionally EM-Seq with an MspI application.
 
-- `sra_upload_organization`: Contains files organized for upload to the Sequence Read Archive (SRA), a public repository for sequencing data.
+- `sra_upload_organization`: Contains barebones scripts for parsing for upload to the Sequence Read Archive (SRA).
 
-- `technical_replicates`: This directory contains information and data about the technical replicates used in the project.
+- `technical_replicates`: Scripts to assess reproducibility among samples. 
 
 ## Contact Information
 
