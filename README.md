@@ -12,7 +12,7 @@ This project aims to investigate 5mC methylation varition among a pedigree of Bl
 
 - `general`: Contains general utility scripts and files that don't belong to any specific part of the analysis but are used throughout the project.
 
-- `metadata_n384_pilots.txt`: This text file contains metadata for the 467 pilot samples used in the project.
+- `metadata_n467_pilots.txt`: This text file contains metadata for the 467 pilot samples used in the project.
 
 - `pedigree`: This directory contains information about the pedigree of the Blue Tits.
 
