@@ -9,9 +9,6 @@ This repository contains a series of scripts for the processing of RRBS and EM-s
 5. `3.summarize_cutsites.R` - Summarizes the 5mC CpG overlap with the cut sites.
 6. `4.extract_cpgs_overlapping_CpGislands.sh` - Extracts CpG sites that overlap with annotated CpG islands.
 7. `5.summarize_cgis.R` - Summarizes the 5mC CpGs that overlap CpG islands.
-8. `6.summarize_counts_mbias.sh` - Generates methylation bias (m-bias) plots and summarizes methylation count data.
-9. `7.summarize_coverage.sh` - Summarizes coverage information for CpG sites.
-10. `8.plot_summaries.R` - Creates summary plots of the methylation data analysis.
 
 
 
